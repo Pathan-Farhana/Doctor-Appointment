@@ -1,0 +1,91 @@
+import { Doctor } from '../types';
+
+export const doctors: Doctor[] = [
+  {
+    id: '1',
+    name: 'Dr. Munaf Inamdar',
+    specialty: 'General Physician',
+    rating: 4.8,
+    reviewCount: 124,
+    availability: ['Mon', 'Wed', 'Fri'],
+    image: 'https://images.pexels.com/photos/5452201/pexels-photo-5452201.jpeg?auto=compress&cs=tinysrgb&w=600',
+    location: 'Kondhawa Khurd',
+    experience: 27,
+    education: 'MBBS, MD-General Medicine',
+    acceptingNewPatients: true,
+    fee: 600,
+    consultationType: 'In-clinic'
+  },
+  {
+    id: '2',
+    name: 'Dr. Subhash Bajaj',
+    specialty: 'Dentist',
+    rating: 4.9,
+    reviewCount: 98,
+    availability: ['Tue', 'Thu', 'Sat'],
+    image: 'https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?auto=compress&cs=tinysrgb&w=600',
+    location: 'Wanowarie',
+    experience: 11,
+    education: 'MBBS, Diploma in Cardiology',
+    acceptingNewPatients: true,
+    fee: 600,
+    consultationType: 'Video'
+  },
+  {
+    id: '3',
+    name: 'Dr. Mufaddal Zakir',
+    specialty: 'Dermatologist',
+    rating: 4.7,
+    reviewCount: 156,
+    availability: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
+    image: 'https://images.pexels.com/photos/5215024/pexels-photo-5215024.jpeg?auto=compress&cs=tinysrgb&w=600',
+    location: 'Wanwadi',
+    experience: 27,
+    education: 'MBBS',
+    acceptingNewPatients: true,
+    fee: 600,
+    consultationType: 'In-clinic'
+  },
+  {
+    id: '4',
+    name: 'Dr. Ajay Gangoli',
+    specialty: 'Paediatrician',
+    rating: 4.9,
+    reviewCount: 210,
+    availability: ['Mon', 'Wed', 'Fri'],
+    image: 'https://images.pexels.com/photos/5214959/pexels-photo-5214959.jpeg?auto=compress&cs=tinysrgb&w=600',
+    location: 'Wanowrie',
+    experience: 34,
+    education: 'MBBS',
+    acceptingNewPatients: true,
+    fee: 400,
+    consultationType: 'Video'
+  }
+];
+
+export const specialties = [
+  'General Physician',
+  'Dentist',
+  'Dermatologist',
+  'Paediatrician',
+  'Gynaecologist',
+  'ENT',
+  'Diabetologist',
+  'Cardiologist',
+  'Physiotherapist',
+  'Endocrinologist',
+  'Orthopaedic',
+  'Ophthalmologist',
+  'Gastroenterologist',
+  'Pulmonologist',
+  'Psychiatrist',
+  'Urologist',
+  'Dietitian/Nutritionist',
+  'Psychologist',
+  'Sexologist',
+  'Nephrologist',
+  'Neurologist',
+  'Oncologist',
+  'Ayurveda',
+  'Homeopath'
+];
